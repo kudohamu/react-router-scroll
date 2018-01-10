@@ -862,6 +862,10 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
+bowser@^1.9.1:
+  version "1.9.1"
+  resolved "https://dwango.jfrog.io/dwango/api/npm/npm/bowser/-/bowser-1.9.1.tgz#f86ef2132e8cb10b3eb6ea5af018758c587020db"
+
 brace-expansion@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.8.tgz#c07b211c7c952ec1f8efd51a77ef0d1d3990a292"
@@ -3156,10 +3160,11 @@ samsam@1.x, samsam@^1.1.3:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/samsam/-/samsam-1.3.0.tgz#8d1d9350e25622da30de3e44ba692b5221ab7c50"
 
-scroll-behavior@^0.9.1:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/scroll-behavior/-/scroll-behavior-0.9.4.tgz#73b4a0eae3e59c0b8f3b6fc1ff78f054a513e79c"
+"scroll-behavior@github:kudohamu/scroll-behavior":
+  version "0.9.5"
+  resolved "https://codeload.github.com/kudohamu/scroll-behavior/tar.gz/47635bfe4b15e11fd1456ef7150c68c2fd3b4a14"
   dependencies:
+    bowser "^1.9.1"
     dom-helpers "^3.2.1"
     invariant "^2.2.2"
 
